@@ -6,11 +6,9 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 import time
-
 from scrapy import signals
 from scrapy.downloadermiddlewares.retry import RetryMiddleware  # Подключил дополнительно
 from scrapy.utils.response import response_status_message
-
 
 class TooManyRequestsRetryMiddleware(RetryMiddleware):
 
