@@ -11,7 +11,6 @@ from scrapy.loader import ItemLoader
 
 from instaparser.items import InstaparserItem
 
-
 class InstagramSpider(scrapy.Spider):
     # атрибуты класса
     name = 'instagram'

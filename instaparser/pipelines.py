@@ -6,7 +6,6 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 from pymongo import MongoClient, ASCENDING
 
-
 class InstaparserPipeline:
     def __init__(self):
         super()
